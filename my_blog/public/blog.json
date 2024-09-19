@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "İlk Blog Yazısı",
+        "content": "Bu benim ilk blog yazımın içeriği.",
+        "author": "Yazar Adı",
+        "date": "2024-09-17"
+    },
+    {
+        "id": 2,
+        "title": "İkinci Blog Yazısı",
+        "content": "Bu benim ikinci blog yazımın içeriği.",
+        "author": "Yazar Adı",
+        "date": "2024-09-18"
+    }
+]
