@@ -1,16 +1,19 @@
 [
     {
-        "id": 1,
-        "title": "İlk Blog Yazısı",
-        "content": "Bu benim ilk blog yazımın içeriği.",
-        "author": "Yazar Adı",
-        "date": "2024-09-17"
+      "id": 1,
+      "title": "First Blog Post",
+      "content": "This is the content of the first blog post.",
+      "author": "Author 1",
+      "date": "2024-09-17",
+      "image": "C:/Users/zeyne/OneDrive/Resimler/Ekran Görüntüleri/Ekran görüntüsü 2024-09-20 110425.png"
     },
     {
-        "id": 2,
-        "title": "İkinci Blog Yazısı",
-        "content": "Bu benim ikinci blog yazımın içeriği.",
-        "author": "Yazar Adı",
-        "date": "2024-09-18"
+      "id": 2,
+      "title": "Second Blog Post",
+      "content": "This is the content of the second blog post.",
+      "author": "Author 2",
+      "date": "2024-09-18",
+      "image": "C:/Users/zeyne/OneDrive/Resimler/Ekran Görüntüleri/Ekran görüntüsü 2024-09-20 110043.png"
     }
-]
+  ]
+  
