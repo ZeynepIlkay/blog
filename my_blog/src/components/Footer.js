@@ -94,7 +94,7 @@ export default function Footer() {
                 <a href='#!'>
                   <div
                     className='mask'
-                    style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
+                    style={{ backgroundColor: 'gray' }}
                   ></div>
                 </a>
               </MDBRipple>
@@ -103,7 +103,7 @@ export default function Footer() {
         </section>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center p-3' style={{ backgroundColor: 'black' }}>
         © Gezgin Blog:   
         <a className='text-white' href='info@gezginblog.com'>
           info@gezginblog.com

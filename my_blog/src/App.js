@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import NavScrollExample from './components/NavScroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
-import Carousel from 'react-bootstrap/Carousel';
+import UncontrolledExample from './components/UncontrolledExample';
+import './App.css';
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -27,24 +28,8 @@ function App() {
   return (
     <div className="container mx-auto p-4">
       <NavScrollExample />
-      <h1 className="text-3xl font-bold mb-4">Blog Yazıları</h1>
-      <Carousel>
-        {posts.map(post => (
-          <Carousel.Item key={post.id}>
-            <img
-              className="d-block w-100"
-              src={post.image || 'path/to/placeholder-image.jpg'}
-              alt={post.title}
-            />
-            <Carousel.Caption>
-              <h3>{post.title}</h3>
-              <p>{post.content}</p>
-              <p className="text-sm text-gray-600">Yazar: {post.author}</p>
-              <p className="text-sm text-gray-600">Tarih: {post.date}</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        ))}
-      </Carousel>
+      <h1 className="text-3xl font-bold mb-4">Gezmek denince...</h1>
+      <UncontrolledExample posts={posts} />
       <Footer />
     </div>
   );

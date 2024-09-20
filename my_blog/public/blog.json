@@ -3,17 +3,26 @@
       "id": 1,
       "title": "First Blog Post",
       "content": "This is the content of the first blog post.",
+      "image": "/images/Ayasofya-trabzon.jpg",
       "author": "Author 1",
-      "date": "2024-09-17",
-      "image": "C:/Users/zeyne/OneDrive/Resimler/Ekran Görüntüleri/Ekran görüntüsü 2024-09-20 110425.png"
+      "date": "2024-09-17"
+      
     },
     {
       "id": 2,
       "title": "Second Blog Post",
       "content": "This is the content of the second blog post.",
+      "image": "/images/sarnic.jpg",
       "author": "Author 2",
-      "date": "2024-09-18",
-      "image": "C:/Users/zeyne/OneDrive/Resimler/Ekran Görüntüleri/Ekran görüntüsü 2024-09-20 110043.png"
+      "date": "2024-09-18"
+    },
+    {
+        "id": 3,
+        "title": "Third Blog Post",
+        "content": "This is the content of the second blog post.",
+        "image": "/images/boyabat kalesi.jpg",
+        "author": "Author 2",
+        "date": "2024-09-18"
     }
   ]
   
