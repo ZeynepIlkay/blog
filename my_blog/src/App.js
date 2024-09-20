@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import NavScrollExample from './components/NavScroll'; // Bileşeni doğru yoldan içe aktar
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -22,6 +25,7 @@ function App() {
 
   return (
     <div className="container mx-auto p-4">
+      <NavScrollExample /> {/* Navbar bileşenini buraya ekle */}
       <h1 className="text-3xl font-bold mb-4">Blog Yazıları</h1>
       {posts.map(post => (
         <div key={post.id} className="post border p-4 mb-4">
