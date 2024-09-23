@@ -10,7 +10,9 @@ function UncontrolledExample({ posts }) {
   };
 
   return (
+    
     <Carousel>
+      
       {posts.map(post => (
         <Carousel.Item key={post.id}>
           <img

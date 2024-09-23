@@ -4,7 +4,16 @@ import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage } from 'm
 
 function CategoryList({ posts }) {
   const { name } = useParams();
-  const filteredPosts = posts.filter(post => post.category === name);
+
+  const filteredPosts = posts.filter(post => {
+    if (name === 'Denizce') {
+      return post.content.toLowerCase().includes('deniz');
+    } else if (name === 'Karasal') {
+      return !post.content.toLowerCase().includes('deniz');
+    } else {
+      return true; // For 'Kararsizlar', show all posts
+    }
+  });
 
   if (filteredPosts.length === 0) {
     return <div>No posts found for this category</div>;
