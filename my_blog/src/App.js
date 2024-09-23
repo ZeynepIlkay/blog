@@ -3,6 +3,9 @@ import NavScrollExample from './components/NavScroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import UncontrolledExample from './components/UncontrolledExample';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import PostDetail from './components/PostDetail';
+import CategoryList from './components/CategoryList';
 import './App.css';
 
 function App() {
@@ -26,12 +29,17 @@ function App() {
   }, []);
 
   return (
-    <div className="container mx-auto p-4">
-      <NavScrollExample />
-      <h1 className="text-3xl font-bold mb-4">Gezmek denince...</h1>
-      <UncontrolledExample posts={posts} />
-      <Footer />
-    </div>
+    <Router>
+      <div className="container mx-auto p-4">
+        <NavScrollExample />
+        <Routes>
+          <Route path="/" element={<UncontrolledExample posts={posts} />} />
+          <Route path="/post/:id" element={<PostDetail posts={posts} />} />
+          <Route path="/category/:name" element={<CategoryList posts={posts} />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

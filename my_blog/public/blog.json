@@ -1,27 +1,28 @@
 [
     {
       "id": 1,
-      "title": "First Blog Post",
-      "content": "This is the content of the first blog post.",
-      "image": "/images/Ayasofya-trabzon.jpg",
-      "author": "Author 1",
+      "title": "Tarih kokusu",
+      "content": "İstanbul’un kalbinde yer alan Galata Kulesi, şehrin en ikonik yapılarından biridir. Bu tarihi kule, sadece bir gözlem noktası değil, aynı zamanda İstanbul’un zengin geçmişine açılan bir kapıdır. Galata Kulesi’ne adım attığınızda, sizi büyüleyici bir manzara karşılar. Kuleye tırmanırken, dar merdivenlerden geçerken tarihin izlerini hissedersiniz. Tepesine ulaştığınızda ise İstanbul’un nefes kesen panoramik manzarası gözlerinizin önüne serilir. Boğaz’ın mavisi, Haliç’in kıvrımları ve tarihi yarımadanın silueti, adeta bir tablo gibi karşınızda durur.Galata Kulesi’nin etrafında gezilecek birçok yer bulunuyor. Galata semtinin dar sokaklarında yürüyüş yapabilir, tarihi binaları ve sanat galerilerini keşfedebilirsiniz. Ayrıca, kuleye yakın konumda bulunan Karaköy’de, şehrin en iyi kafelerinde bir kahve molası verebilirsiniz. Galata Köprüsü’nden geçerek Eminönü’ne ulaşabilir, Mısır Çarşısı’nda alışveriş yapabilirsiniz. Galata Kulesi’ni ziyaret etmek, sadece bir turistik gezi değil, aynı zamanda duygusal bir yolculuktur. Kuleye çıktığınızda, rüzgarın yüzünüzdeki hafif dokunuşunu hisseder ve İstanbul’un büyüsüne kapılırsınız. Geceleri, kule ışıklarla aydınlandığında, bu büyü daha da artar. Her köşe başında yeni bir hikaye keşfeder ve her anın tadını çıkarırsınız. Galata Kulesi, İstanbul’un kalbinde atmaya devam eden bir tarih ve aşk hikayesidir.",
+      "image": "/images/galatakule.jpg",
+      "author": "Tarık Yüceler",
       "date": "2024-09-17"
       
     },
     {
       "id": 2,
-      "title": "Second Blog Post",
-      "content": "This is the content of the second blog post.",
-      "image": "/images/sarnic.jpg",
-      "author": "Author 2",
+      "title": "Romantizm şehri",
+      "content": "Paris’in kalbinde yükselen Eyfel Kulesi, her ziyaretçinin hayallerini süsleyen bir simge. Bu demir dev, sadece bir yapı değil, aynı zamanda romantizmin ve tarihin bir sembolü. Eyfel Kulesi’ne ilk adım attığınızda, büyüleyici bir manzara sizi karşılar. Kuleye çıkarken, Paris’in muhteşem panoramik manzarası gözlerinizin önüne serilir. Şehir, Seine Nehri’nin kıvrımlarıyla süslenmiş, tarihi binaları ve yemyeşil parklarıyla adeta bir tablo gibi karşınızda durur.Eyfel Kulesi’nin etrafında gezilecek birçok yer bulunuyor. Champ de Mars parkında yürüyüş yapabilir, Trocadéro Bahçeleri’nde oturup kuleyi izleyebilirsiniz. Ayrıca, Seine Nehri’nde bir tekne turu yaparak Eyfel Kulesi’ni farklı açılardan görme şansını yakalayabilirsiniz.\n\nEyfel Kulesi’nin tepesine çıktığınızda, rüzgarın yüzünüzdeki hafif dokunuşunu hisseder ve Paris’in büyüsüne kapılırsınız. Geceleri, kule ışıklarla aydınlandığında, bu büyü daha da artar. Her saat başı yapılan ışık gösterisi, ziyaretçilere unutulmaz anlar yaşatır.Paris’te Eyfel Kulesi’ni ziyaret etmek, sadece bir turistik gezi değil, aynı zamanda duygusal bir deneyimdir. Bu büyülü şehirde, her köşe başında yeni bir hikaye keşfeder ve her anın tadını çıkarırsınız. Eyfel Kulesi, Paris’in kalbinde atmaya devam eden bir aşk hikayesidir.",
+      "image": "/images/eifel.jpg",
+      "author": "Sena Karcı",
       "date": "2024-09-18"
     },
+    
     {
         "id": 3,
-        "title": "Third Blog Post",
-        "content": "This is the content of the second blog post.",
-        "image": "/images/boyabat kalesi.jpg",
-        "author": "Author 2",
+        "title": "Mavi mola",
+        "content": "Antalya’nın gözde plajlarından biri olan Konyaaltı Plajı, Akdeniz’in berrak sularıyla buluşan uzun ve geniş kumsalıyla ziyaretçilerini büyüler. Bu plaj, sadece deniz ve güneşin tadını çıkarmak isteyenler için değil, aynı zamanda çeşitli etkinlikler ve gezilecek yerler arayanlar için de ideal bir destinasyondur. Konyaaltı Plajı’na adım attığınızda, sizi karşılayan ilk şey, Akdeniz’in masmavi sularının ve Toros Dağları’nın muhteşem manzarasıdır. Plaj boyunca uzanan yürüyüş yollarında yürüyüş yapabilir, bisiklete binebilir veya sahil boyunca sıralanmış kafelerde bir kahve molası verebilirsiniz. Plajda güneşlenirken, dalgaların huzur verici sesi eşliğinde dinlenmenin keyfini çıkarabilirsiniz.Konyaaltı Plajı’nın çevresinde gezilecek birçok yer bulunuyor. Antalya Akvaryumu, dünyanın en büyük tünel akvaryumlarından biri olup, deniz yaşamını yakından görmek isteyenler için harika bir durak1. Ayrıca, plajın hemen yakınında yer alan Minicity, Türkiye’nin önemli tarihi ve kültürel yapılarının minyatür modellerini sergileyen bir açık hava müzesidir. Plajda su sporları da oldukça popülerdir. Jet ski, parasailing ve dalış gibi aktivitelerle adrenalin dolu anlar yaşayabilirsiniz. Akşamları ise sahil boyunca yürüyüş yaparak, gün batımının büyüleyici manzarasını izleyebilirsiniz. Konyaaltı Plajı, sadece bir tatil yeri değil, aynı zamanda duygusal bir deneyim sunar. Deniz, kum ve güneşin birleşimi, ziyaretçilere huzur ve mutluluk verir. Antalya’nın bu eşsiz köşesinde, her anın tadını çıkararak unutulmaz anılar biriktirebilirsiniz.",
+        "image": "/images/konyaaltı.jpg",
+        "author": "Kerem Aktürk",
         "date": "2024-09-18"
     }
   ]

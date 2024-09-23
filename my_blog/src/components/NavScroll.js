@@ -18,7 +18,6 @@ function NavScroll() {
             navbarScroll
           >
             <Nav.Link href="#action1">Ana Sayfa</Nav.Link>
-            <Nav.Link href="#action2">Bloglar</Nav.Link>
             <NavDropdown title="Kategoriler" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Denizce</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
