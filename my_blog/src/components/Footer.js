@@ -11,8 +11,8 @@ import {
 
 export default function Footer() {
   return (
-    <MDBFooter className='text-center text-white' style={{ backgroundColor: '#caced1' }}>
-      <MDBContainer className='p-4'>
+    <MDBFooter className='text-center text-white' style={{ backgroundColor: 'white' }}>
+      <MDBContainer className='p-4'style={{ backgroundColor: 'white' }}>
         <section className=''>
           <MDBRow>
             <MDBCol lg='2' md='12' className='mb-4 mb-md-0'>
@@ -103,7 +103,7 @@ export default function Footer() {
         </section>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'black' }}>
+      <div className='text-center p-3' style={{ backgroundColor: '#198754' }}>
         © Gezgin Blog:   
         <a className='text-white' href='info@gezginblog.com'>
           info@gezginblog.com

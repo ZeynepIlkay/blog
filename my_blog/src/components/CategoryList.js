@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage } from 'mdb-react-ui-kit';
 
 function CategoryList({ posts }) {
   const { name } = useParams();
+  const [expandedPostId, setExpandedPostId] = useState(null);
 
   const filteredPosts = posts.filter(post => {
     if (name === 'Denizce') {
@@ -19,16 +20,25 @@ function CategoryList({ posts }) {
     return <div>No posts found for this category</div>;
   }
 
+  const toggleReadMore = (postId) => {
+    setExpandedPostId(expandedPostId === postId ? null : postId);
+  };
+
   return (
-    <div className="row">
+    <div className="category-list row">
       {filteredPosts.map(post => (
-        <MDBCard className='mb-3' key={post.id}>
-          <MDBCardImage position='top' src={post.image || '/images/Ayasofya-trabzon.jpg'} alt={post.title} />
+        <MDBCard className='mb-3 custom-card' key={post.id}>
+          <MDBCardImage position='top' src={post.image || '/images/Ayasofya-trabzon.jpg'} alt={post.title} className='custom-image' />
           <MDBCardBody>
-            <MDBCardTitle>{post.title}</MDBCardTitle>
+            <MDBCardTitle className='custom-title'>{post.title}</MDBCardTitle>
             <MDBCardText>
-              {post.content.substring(0, 100)}...{' '}
-              <a href={`/post/${post.id}`} className='read-more'>devamını oku</a>
+              {expandedPostId === post.id ? post.content : `${post.content.substring(0, 150)}...`}
+              <a href="#!" onClick={() => toggleReadMore(post.id)} className='read-mores'>
+                {expandedPostId === post.id ? ' daha az göster' : ' devamını oku'}
+              </a>
+            </MDBCardText>
+            <MDBCardText>
+              <small className='text-muted'>{post.author}</small>
             </MDBCardText>
             <MDBCardText>
               <small className='text-muted'>{post.date}</small>

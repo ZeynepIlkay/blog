@@ -69,6 +69,14 @@ footer {
   cursor: pointer;
 }
 
+.read-mores {
+  
+  font-weight: bold;
+  color: #198754;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* Tarih ve yazar adı için */
 .author, .date {
   color: white;
@@ -87,3 +95,59 @@ footer {
   background: linear-gradient(to right bottom, rgb(168, 231, 191), rgb(33, 240, 54));
 
 }
+
+
+.margin-top-3 {
+  margin-top: 5%; /* Üstten %3 boşluk */
+  color: black;
+
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking-text {
+  animation: blink 1s infinite; /* 1 saniye içinde yanıp söner, sonsuz tekrarlanır */
+  color: #198754; /* İsteğe bağlı: Yeşil renk uygulamak için */
+}
+
+
+.navbar {
+  margin-bottom: 3% !important;
+  margin-top: 2% !important;
+  padding-top: 1% ;
+  padding-bottom: 1%;
+  
+  
+
+}
+ 
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .dropdown-item {
+  color: #198754 !important; /* Bootstrap yeşil rengini kullanabilirsiniz */
+}
+
+.navbar .dropdown-item:hover {
+  color: #145a32 !important; /* Hover rengi (daha koyu bir yeşil) */
+}
+
+.navbar .nav-link:hover {
+  color: #145a32 !important;
+}
+
+.detailimg {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+

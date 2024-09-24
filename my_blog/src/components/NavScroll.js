@@ -13,7 +13,7 @@ function NavScroll({ searchTerm, handleSearchChange }) {
   };
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="navnav bg-body-tertiary w-100" style={{ margin: '0', width: '100%' }}>
       <Container fluid>
         <Navbar.Brand href="/">Gezgin</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -36,16 +36,16 @@ function NavScroll({ searchTerm, handleSearchChange }) {
             </Nav.Link>
           </Nav>
           <Form className="d-flex">
-        <Form.Control
-          type="search"
-          placeholder="Search"
-          className="me-2"
-          aria-label="Search"
-          value={searchTerm}
-          onChange={handleSearchChange}
-        />
-        <Button variant="outline-success">Search</Button>
-      </Form>
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+              value={searchTerm}
+              onChange={handleSearchChange}
+            />
+            <Button variant="outline-success">Search</Button>
+          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>

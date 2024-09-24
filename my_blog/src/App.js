@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PostDetail from './components/PostDetail';
 import CategoryList from './components/CategoryList';
 import PersonalProfile from './components/Profiles'; 
+import Home from './components/HomePage';
 import './App.css';
 
 function App() {
@@ -42,17 +43,19 @@ function App() {
 
   return (
     <Router>
+      <NavScrollExample searchTerm={searchTerm} handleSearchChange={handleSearchChange} />
       <div className="container mx-auto p-4">
-        <NavScrollExample searchTerm={searchTerm} handleSearchChange={handleSearchChange} />
-        <h1 className="text-3xl font-bold mb-4">Kısa bir göz atış</h1>
+        
         <Routes>
-          <Route path="/" element={<UncontrolledExample posts={filteredPosts} />} />
+          <Route path="/" element={<Home posts={filteredPosts} />}  />
           <Route path="/post/:id" element={<PostDetail posts={posts} />} />
           <Route path="/category/:name" element={<CategoryList posts={filteredPosts} />} />
           <Route path="/profile" element={<PersonalProfile />} />
         </Routes>
-        <Footer />
+        
+       
       </div>
+      <Footer />
     </Router>
   );
 }

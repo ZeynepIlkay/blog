@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-function UncontrolledExample({ posts }) {
+function UncontrolledExample({ posts, searchTerm }) {
   const truncateContent = (content, wordLimit) => {
     const words = content.split(' ');
     return words.length > wordLimit
@@ -9,11 +9,25 @@ function UncontrolledExample({ posts }) {
       : content;
   };
 
-  return (
+  // Arama işlemi için filtreleme fonksiyonu
+  const filteredPosts = posts.filter(post => {
+    const lowerCaseSearchTerm = searchTerm?.toLowerCase() || '';
     
+    // Tüm alanların dolu olup olmadığını kontrol ediyoruz
+    const title = post.title?.toLowerCase() || '';
+    const content = post.content?.toLowerCase() || '';
+    const author = post.author?.toLowerCase() || '';
+
+    return (
+      title.includes(lowerCaseSearchTerm) ||
+      content.includes(lowerCaseSearchTerm) ||
+      author.includes(lowerCaseSearchTerm)
+    );
+  });
+
+  return (
     <Carousel>
-      
-      {posts.map(post => (
+      {filteredPosts.map(post => (
         <Carousel.Item key={post.id}>
           <img
             className="d-block w-100"
