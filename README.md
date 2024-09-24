@@ -1,6 +1,6 @@
 # React JSON AJAX Blog Sitesi
 
-Bu proje, React kullanarak geliştirilmiş bir blog sitesidir. Kullanıcıların yazıları görüntülemesine, arama yapmasına ve yazılara filtre uygulamasına olanak tanır. Ayrıca kullanıcı profilleri ve sepet gibi özellikler de mevcuttur.
+Bu proje, React kullanarak geliştirilmiş bir blog sitesidir. Kullanıcıların yazıları görüntülemesine, arama yapmasına ve yazılara filtre uygulamasına olanak tanır. Ayrıca kullanıcı profili de mevcuttur.
 
 ## Özellikler
 
