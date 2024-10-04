@@ -15,7 +15,7 @@ Bu proje, React kullanarak geliştirilmiş bir blog sitesidir. Kullanıcıların
 - **React Router:** Sayfalar arası geçiş yapmak için.
 - **MDBReact:** UI bileşenleri için.
 - **Bootstrap:** Responsive tasarım için.
-- **Axios:** JSON verilerini almak için.
+- **The XMLHttpRequest Object:** JSON verilerini almak için.
 
 ## Demo
 https://geziblog.netlify.app/ 
